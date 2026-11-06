@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ==================== TÔNG MÀU CHỦ ĐẠO FAHASA & VIETTELPOST ==================== -->
+    <!-- Màu đỏ nhận diện thương hiệu Fahasa / ViettelPost -->
+    <color name="primary_red">#C92127</color>
+    <color name="primary_red_dark">#A81A1F</color>
+    <color name="primary_red_light">#FFEBEB</color>
+
+    <!-- Màu cam khuyến mãi & flash sale Fahasa -->
+    <color name="accent_orange">#F7941E</color>
+    <color name="accent_orange_light">#FFF3E0</color>
+
+    <!-- Màu xanh tủ sách 0đ / trạng thái thành công -->
+    <color name="color_success">#008848</color>
+    <color name="color_success_light">#E8F5E9</color>
+    <color name="color_warning">#FF9800</color>
+    <color name="color_info">#1976D2</color>
+
+    <!-- Màu sao đánh giá -->
+    <color name="star_gold">#FFB400</color>
+
+    <!-- Màu nền và khung chuẩn E-Commerce (Fahasa / Shopee) -->
+    <color name="bg_screen">#F0F2F5</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="border_divider">#E5E5E5</color>
+    <color name="border_light">#EEEEEE</color>
+
+    <!-- Màu văn bản theo cấp độ tương phản -->
+    <color name="text_main">#212121</color>
+    <color name="text_sub">#757575</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Màu giá tiền & giảm giá -->
+    <color name="price_red">#C92127</color>
+    <color name="price_original">#9E9E9E</color>
+    <color name="badge_discount_bg">#C92127</color>
+
+    <!-- Màu cơ bản -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>

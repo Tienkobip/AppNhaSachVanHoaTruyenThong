@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Quyền truy cập mạng -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Quyền GPS cho chức năng lấy địa chỉ giao hàng -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppNhaSachVanHoaTruyenThong"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <!-- ==================== VÙNG CỦA TRẦN DUY LONG ==================== -->
+
+        <!-- MH01 - Splash Screen (LAUNCHER) -->
+        <activity
+            android:name=".ui.auth_long.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppNhaSachVanHoaTruyenThong">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- MH02 - Đăng nhập -->
+        <activity
+            android:name=".ui.auth_long.LoginActivity"
+            android:exported="false" />
+
+        <!-- MH03 - Đăng ký -->
+        <activity
+            android:name=".ui.auth_long.RegisterActivity"
+            android:exported="false" />
+
+        <!-- MH10 - Tài khoản / Hồ sơ cá nhân -->
+        <activity
+            android:name=".ui.auth_long.ProfileActivity"
+            android:exported="false" />
+
+        <!-- MH13 - Yêu cầu trả hàng -->
+        <activity
+            android:name=".ui.auth_long.ReturnOrderActivity"
+            android:exported="false" />
+
+        <!-- ==================== VÙNG CỦA NGUYỄN TRỌNG HIẾU ==================== -->
+
+        <!-- MH04 - Trang chủ -->
+        <activity
+            android:name=".ui.catalog_hieu.HomeActivity"
+            android:exported="false" />
+
+        <!-- MH05 - Tìm kiếm & Lọc sản phẩm -->
+        <activity
+            android:name=".ui.catalog_hieu.SearchFilterActivity"
+            android:exported="false" />
+
+        <!-- MH06 - Chi tiết sách -->
+        <activity
+            android:name=".ui.catalog_hieu.BookDetailActivity"
+            android:exported="false" />
+
+        <!-- MH14 - Viết đánh giá sản phẩm -->
+        <activity
+            android:name=".ui.catalog_hieu.WriteReviewActivity"
+            android:exported="false" />
+
+        <!-- ==================== VÙNG CỦA NGUYỄN VIỆT TIẾN ==================== -->
+
+        <!-- MH07 - Giỏ hàng -->
+        <activity
+            android:name=".ui.order_tien.CartActivity"
+            android:exported="false" />
+
+        <!-- MH08 - Thanh toán (Tích hợp GPS) -->
+        <activity
+            android:name=".ui.order_tien.CheckoutActivity"
+            android:exported="false" />
+
+        <!-- MH09 - Đặt hàng thành công -->
+        <activity
+            android:name=".ui.order_tien.OrderSuccessActivity"
+            android:exported="false" />
+
+        <!-- MH11 - Sổ địa chỉ giao hàng -->
+        <activity
+            android:name=".ui.order_tien.AddressListActivity"
+            android:exported="false" />
+
+        <!-- MH12 - Lịch sử & Chi tiết đơn hàng -->
+        <activity
+            android:name=".ui.order_tien.OrderHistoryActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>
