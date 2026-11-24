@@ -17,7 +17,7 @@ final class CatalogStorage {
     private final Gson gson = new Gson();
 
     CatalogStorage(Context context) {
-        int userId = TokenManager.getInstance(context).getUserId();
+        String userId = TokenManager.getInstance(context).getUserId();
         preferences = context.getSharedPreferences("hieu_catalog_" + userId, Context.MODE_PRIVATE);
     }
 

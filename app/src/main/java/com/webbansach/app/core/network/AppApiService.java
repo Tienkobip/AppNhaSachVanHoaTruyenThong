@@ -9,7 +9,6 @@ import retrofit2.http.*;
 
 /**
  * Interface Retrofit chứa trọn bộ 34 Endpoints của WebApp.Api.
- * [KHÓA CHẶT] - Không được sửa file này khi code giao diện.
  */
 public interface AppApiService {
 

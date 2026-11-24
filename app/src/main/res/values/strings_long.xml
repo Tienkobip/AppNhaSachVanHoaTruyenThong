@@ -1,5 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Chuỗi dành riêng cho Trần Duy Long (MH01, MH02, MH03, MH10, MH13) -->
-    <!-- Thêm chuỗi mới vào đây, KHÔNG sửa file strings.xml chung -->
+    <string name="long_login_title">ĐĂNG NHẬP</string>
+    <string name="long_login_subtitle">Chào mừng bạn quay lại với Nhà Sách Văn Hóa</string>
+    <string name="long_hint_email_or_phone">Email hoặc Số điện thoại</string>
+    <string name="long_hint_password">Mật khẩu</string>
+    <string name="long_btn_login">ĐĂNG NHẬP</string>
+    <string name="long_no_account">Chưa có tài khoản? </string>
+    <string name="long_register_now">Đăng ký ngay</string>
+    <string name="long_continue_as_guest">Khám phá sách không cần đăng nhập</string>
+    <string name="long_err_empty_email_phone">Vui lòng nhập Email hoặc Số điện thoại</string>
+    <string name="long_err_invalid_email_phone">Email hoặc Số điện thoại không đúng định dạng</string>
+    <string name="long_err_empty_password">Mật khẩu không được để trống</string>
+    <string name="long_login_success">Đăng nhập thành công!</string>
+
+    <!-- MH01 - Splash Screen -->
+    <string name="long_splash_status_checking">Đang kiểm tra phiên đăng nhập...</string>
+    <string name="long_splash_session_expired">Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại.</string>
+
+    <!-- MH03 - Đăng ký tài khoản -->
+    <string name="long_register_title">ĐĂNG KÝ TÀI KHOẢN</string>
+    <string name="long_register_subtitle">Tạo tài khoản để tích điểm và theo dõi đơn hàng</string>
+    <string name="long_hint_full_name">Họ và tên (*)</string>
+    <string name="long_hint_email">Email (*)</string>
+    <string name="long_hint_phone">Số điện thoại (*)</string>
+    <string name="long_hint_confirm_password">Xác nhận mật khẩu (*)</string>
+    <string name="long_hint_address_optional">Địa chỉ nhận hàng (Tùy chọn)</string>
+    <string name="long_btn_register">ĐĂNG KÝ NGAY</string>
+    <string name="long_already_have_account">Đã có tài khoản? </string>
+    <string name="long_login_now">Đăng nhập</string>
+    <string name="long_err_empty_full_name">Họ tên không được để trống</string>
+    <string name="long_err_max_full_name">Họ tên tối đa 150 ký tự</string>
+    <string name="long_err_empty_email">Email không được để trống</string>
+    <string name="long_err_invalid_email">Định dạng Email không hợp lệ</string>
+    <string name="long_err_empty_phone">Số điện thoại không được để trống</string>
+    <string name="long_err_invalid_phone">Số điện thoại không hợp lệ (cần 10 chữ số, bắt đầu bằng 0)</string>
+    <string name="long_err_short_password">Mật khẩu phải có ít nhất 6 ký tự và chứa ít nhất 1 chữ số</string>
+    <string name="long_err_empty_confirm_password">Vui lòng xác nhận mật khẩu</string>
+    <string name="long_err_mismatch_password">Mật khẩu xác nhận không khớp</string>
+    <string name="long_register_success">Đăng ký tài khoản thành công!</string>
+
+    <!-- MH10 - Tài khoản & Hồ sơ cá nhân -->
+    <string name="long_profile_title">Tài khoản của tôi</string>
+    <string name="long_profile_change_avatar">Chạm vào ảnh để đổi ảnh đại diện</string>
+    <string name="long_profile_dob_prefix">Ngày sinh: </string>
+    <string name="long_profile_address_prefix">Địa chỉ: </string>
+    <string name="long_profile_not_updated">Chưa cập nhật</string>
+    <string name="long_btn_edit_profile">Sửa hồ sơ cá nhân</string>
+    <string name="long_btn_change_password">Đổi mật khẩu</string>
+    <string name="long_btn_address_book">Sổ địa chỉ giao hàng</string>
+    <string name="long_btn_order_history">Lịch sử đơn hàng</string>
+    <string name="long_btn_my_returns">Yêu cầu đổi trả của tôi</string>
+    <string name="long_btn_logout">Đăng xuất</string>
+    <string name="long_dialog_edit_profile_title">Cập nhật hồ sơ cá nhân</string>
+    <string name="long_hint_dob">Ngày sinh (YYYY-MM-DD) - Chạm để chọn</string>
+    <string name="long_update_profile_success">Cập nhật hồ sơ thành công!</string>
+    <string name="long_dialog_change_pwd_title">Đổi mật khẩu</string>
+    <string name="long_hint_current_password">Mật khẩu hiện tại (*)</string>
+    <string name="long_hint_new_password">Mật khẩu mới (tối thiểu 6 ký tự, có chữ số) (*)</string>
+    <string name="long_hint_confirm_new_password">Xác nhận mật khẩu mới (*)</string>
+    <string name="long_err_same_old_password">Mật khẩu mới không được trùng với mật khẩu hiện tại</string>
+    <string name="long_change_pwd_success_relogin">Đổi mật khẩu thành công! Vui lòng đăng nhập lại bằng mật khẩu mới.</string>
+    <string name="long_logout_confirm_title">Xác nhận đăng xuất</string>
+    <string name="long_logout_confirm_msg">Bạn có chắc chắn muốn đăng xuất khỏi tài khoản này?</string>
+    <string name="long_logout_success">Đã đăng xuất thành công.</string>
+
+    <!-- MH13 - Yêu cầu trả hàng & Lịch sử đổi trả -->
+    <string name="long_return_title">Yêu cầu đổi trả hàng</string>
+    <string name="long_return_history_only_title">Yêu cầu đổi trả của tôi</string>
+    <string name="long_return_select_items_label">Chọn sản phẩm và số lượng muốn hoàn trả</string>
+    <string name="long_return_estimated_refund">Số tiền hoàn dự kiến: </string>
+    <string name="long_return_images_selected">Đã chọn %1$d/5 ảnh minh chứng</string>
+    <string name="long_return_clear_images">Xóa ảnh đã chọn</string>
+    <string name="long_return_history_section_title">LỊCH SỬ YÊU CẦU TRẢ HÀNG CỦA TÔI</string>
+    <string name="long_return_history_empty">Bạn chưa có yêu cầu đổi trả hàng nào.</string>
+    <string name="long_err_return_no_item_selected">Vui lòng chọn ít nhất 1 sản phẩm muốn trả</string>
+    <string name="long_err_return_empty_reason">Vui lòng nhập lý do yêu cầu trả hàng</string>
+    <string name="long_err_return_empty_bank">Vui lòng nhập đầy đủ Tên ngân hàng, Số tài khoản và Chủ tài khoản để nhận tiền hoàn</string>
+    <string name="long_return_submit_success">Gửi yêu cầu trả hàng thành công!</string>
 </resources>
